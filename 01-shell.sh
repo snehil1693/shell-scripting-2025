@@ -2,4 +2,4 @@
 
 ls
 
-head /etc/passd
+head /etc/passwd
