@@ -3,4 +3,5 @@
 echo Hello World
 
 #For new line or to print multiple lines
-echo -e "Hello World \n\t How are you guys"
+echo -e "Hello World \n\t"
+echo -e "How are you guys"
