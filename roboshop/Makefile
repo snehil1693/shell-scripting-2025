@@ -20,3 +20,5 @@ mysql:      ##Install MYSQL Component
 	@bash mysql.sh
 rabbitmq:   ##Install Rabbitmq Component
 	@bash rabbitmq.sh
+databases:  ##Install all Databases
+databases:  mongodb redis mysql rabbitmq
