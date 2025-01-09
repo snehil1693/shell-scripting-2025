@@ -15,10 +15,12 @@ STAT_CHECK(){
   else
     echo -e "\e[31m fail\e[0m"
   ## so if the code fail it should not move forward
+    echo -e "\e[33m Check the log file for more details, log file - $LOG\e[0m"
     exit 1
   fi
 }
 
 PRINT(){
+  echo -e "##############################\t$1\t##############################"
   echo -n -e "$1\t\t..."
 }
