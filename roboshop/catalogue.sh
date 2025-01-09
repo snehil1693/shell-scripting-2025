@@ -35,3 +35,4 @@ STAT_CHECK $?
 
 PRINT "Start Catalogue Service\t"
 systemctl daemon-reload &>>$LOG && systemctl start catalogue &>>$LOG && systemctl enable catalogue &>>$LOG
+STAT_CHECK $?
