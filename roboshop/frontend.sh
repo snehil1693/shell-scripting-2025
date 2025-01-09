@@ -1,5 +1,4 @@
 #!/bin/bash
-
 source common.sh
 
 PRINT "Installing Nginx\t"
